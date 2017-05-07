@@ -20932,5 +20932,7 @@ var React = require('React');
 var ReactDOM = require('react-dom');
 var ListManager = require('./components/ListManager.jsx');
 ReactDOM.render(React.createElement(ListManager, { title: 'Ingredients' }), document.getElementById('ingredients'));
+ReactDOM.render(React.createElement(ListManager, { title: 'To Do' }), document.getElementById('todo'));
+ReactDOM.render(React.createElement(ListManager, { title: 'Christmas' }), document.getElementById('christmas'));
 
 },{"./components/ListManager.jsx":208,"React":25,"react-dom":55}]},{},[209]);
